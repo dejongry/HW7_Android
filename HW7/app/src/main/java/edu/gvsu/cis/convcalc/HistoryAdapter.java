@@ -20,9 +20,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class HistoryAdapter extends SectionedRecyclerViewAdapter<HistoryAdapter.HeaderViewHolder,
-                HistoryAdapter.ViewHolder,
-                HistoryAdapter.FooterViewHolder> {
+public class HistoryAdapter extends SectionedRecyclerViewAdapter<HistoryAdapter.HeaderViewHolder, HistoryAdapter.ViewHolder, HistoryAdapter.FooterViewHolder> {
 
     private final OnListFragmentInteractionListener mListener;
     private final HashMap<String,List<HistoryItem>> dayValues;
